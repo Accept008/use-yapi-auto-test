@@ -29,7 +29,12 @@
    ![image](./img/dynamic-param.png)
    ![image](./img/dynamic-param-2.png)
    ![image](./img/dynamic-param-3.png)
-   
+    
+    *.请求body参数添加动态参数
+      eg: "token":  "{{ $.key.body.access_token}}" -> "token":  "{{ $.368.body.access_token}}"
+    ![image](./img/yapi-body-dynamic-param.png)   
+
+
 ### c.导出测试报告
     在【测试集合】处点击【服务端测试】在弹框处复制地址，并在浏览器打开
     https://yapi.xxx.com/api/open/run_auto_test?id=39&token=4acc10e4817f81ae8e8128258072dfb007007b28f79bcb9fb6d3e80b1f7d536b&mode=html&email=false&download=false
