@@ -32,7 +32,7 @@
     
     *.请求body参数添加动态参数
       eg: "token":  "{{ $.key.body.access_token}}" -> "token":  "{{ $.368.body.access_token}}"
-    ![image](./img/yapi-body-dynamic-param.png)   
+   ![image](./img/yapi-body-dynamic-param.png)   
 
 
 ### c.导出测试报告
