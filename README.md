@@ -12,9 +12,13 @@
    ![image](./img/payload-data-1.png)
    ![image](./img/payload-data-2.png) 
   
-    *. 前端Payload数据对应yapi参数类型为form,同时 Content-Type=application/x-www-form-urlencoded
+    *. 前端form-data数据对应yapi参数类型为form,同时 Content-Type=application/x-www-form-urlencoded
    ![img](./img/form-data-1.png)
    ![img](./img/form-data-2.png) 
+
+   *. 前端Query String Parameters数据对应yapi参数类型为Query
+   ![img](./img/query-string-param-1.png)
+   ![img](./img/query-string-param-2.png) 
     
 ### b.【测试集合】处添加集合,并导入【接口列表】录入的接口
    ![image](./img/api-test-group.png) 
